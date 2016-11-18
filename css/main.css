@@ -1,0 +1,31 @@
+body {
+	font-family: Arial;
+	background-image: url(../img/fondo-home.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+header {
+	text-align: center;
+}
+.logo-blanco {
+	width: 200px;
+	height: auto;
+}
+.btn-home {
+	color: white;
+	border-radius: 3px;
+	display: inline;
+}
+.btn-logIn {
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid white;
+}
+.btn-signUp {
+	background: linear-gradient(rgb(118, 2, 189), rgb(212, 0, 206));
+	border: 0px;
+}
+.home section .row {
+	position: absolute;
+	bottom: 10px;
+}
