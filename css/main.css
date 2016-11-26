@@ -8,18 +8,28 @@ body {
 header {
 	text-align: center;
 }
+a {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+.row {
+	width: 100%;
+	margin: 0;
+}
 .logo-blanco {
 	width: 200px;
 	height: auto;
+	margin-top: 10px;
 }
 .btn-home {
-	color: white;
 	border-radius: 3px;
 	display: inline;
+	width: 100% !important;
 }
 .btn-logIn {
-	background-color: rgba(0, 0, 0, 0);
-	border: 1px solid white;
+	background-color: transparent;
+	border: 1px solid white !important;
 }
 .btn-signUp {
 	background: linear-gradient(rgb(118, 2, 189), rgb(212, 0, 206));

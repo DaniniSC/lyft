@@ -13,6 +13,12 @@ body {
 h1, p {
 	text-align: center;
 }
+#inputTelefonico{
+	text-align: center;
+}
+.inputTelefonico div {
+	display: inline;
+}
 .btn-next {
 	display: inline;
 	margin: 0;
@@ -27,3 +33,49 @@ h1, p {
 	position: absolute;
 	bottom: 0;
 }
+
+/*
+
+
+var pais_actual = windows.localStorage.getItem("pais_actual")||"Chile";
+var pais_obj = null;
+for (var i=0; i<paises.lenght; ++i) {
+	if(paises[i].nombre == pais_actual){
+		pais_obj = paises[i];
+		break;
+	}
+}
+
+
+$('.pais-item a').on('click', function(ev){
+	var nombre_pais = $(this).find('span').html();
+	window.localStorage.setItem('nombre_pais-llave', nombre_pais)
+});
+
+$.ajax({
+	url:"/usuario/info.json", ------> obligatorio
+	dataType: "json", ------> obligatorio
+	type: "GET", ------> valor por defecto
+	function(data){
+		....
+	}
+});
+
+GET -> index.html
+{"nombre": "Matias",
+"edad": 27
+}
+
+$.ajax({
+	url:"/usuario/info.json", ------> obligatorio
+	dataType: "json", ------> obligatorio
+	success: function(data){
+		alert(data.nombre);
+	}
+	error: function(err){
+		alert("Tiene problemas con internet");
+	}
+});
+
+
+*/
