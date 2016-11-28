@@ -25,7 +25,14 @@ a {
 .btn-home {
 	border-radius: 3px;
 	display: inline;
-	width: 100% !important;
+	width: 100%;
+	height: auto;
+	padding: 10px auto;
+}
+.btn-home a {
+	margin: 10px auto;
+	text-align: center;
+	width: 100%;
 }
 .btn-logIn {
 	background-color: transparent;
