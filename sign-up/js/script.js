@@ -2,27 +2,32 @@ var paises = [
 	{
 		nombre: "Argentina",
 		codigoTel: "+54",
-		bandera: "img/ar.png"
+		bandera: "img/ar.png",
+		nDigitos: 10
 	},
 	{
 		nombre: "Chile",
 		codigoTel: "+56",
-		bandera: "img/cl.png"
+		bandera: "img/cl.png",
+		nDigitos: 9
 	},
 	{
 		nombre: "Colombia",
 		codigoTel: "+57",
-		bandera: "img/col.png"
+		bandera: "img/col.png",
+		nDigitos: 10
 	},
 	{
 		nombre: "Perú",
 		codigoTel: "+51",
-		bandera: "img/pe.jpg"
+		bandera: "img/pe.jpg",
+		nDigitos: 9
 	},
 	{
 		nombre: "Venezuela",
 		codigoTel: "+58",
-		bandera: "img/ven.jpg"
+		bandera: "img/ven.jpg",
+		nDigitos: 10
 	}
 ];
 
@@ -38,3 +43,8 @@ for (var i=0 ; i<paises.length ; ++i){
 
 $('#seleccionarPais img').attr('src', pais.bandera);
 $('#codigoTel').html(pais.codigoTel);
+$('#nTelefono').attr('maxlength', pais.nDigitos);
+
+$('.btn-next').on('click', function(){
+	alert("LAB - " + Math.floor(Math.random() * 899 + 100));
+});

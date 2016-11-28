@@ -16,6 +16,13 @@ h1, p {
 .form-group {
 	display: inline;
 }
+.glyphicon {
+	width: 19px;
+	height: 19px;
+}
+input {
+	border: 0;
+}
 #input-name, #input-lastname {
 	width: 48%;
 	display: inline;
