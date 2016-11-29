@@ -44,7 +44,5 @@ for (var i=0 ; i<paises.length ; ++i){
 $('#seleccionarPais img').attr('src', pais.bandera);
 $('#codigoTel').html(pais.codigoTel);
 $('#nTelefono').attr('maxlength', pais.nDigitos);
-
-$('.btn-next').on('click', function(){
-	alert("LAB - " + Math.floor(Math.random() * 899 + 100));
-});
+var numeroTelefono = $('#codigoTel')+$('#nTelefono').val;
+window.localStorage.setItem('registrarTelefono', numeroTelefono);

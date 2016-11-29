@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/common.css">
 	<link rel="stylesheet" href="css/main.css">
 	<title>Lyft - Sign Up</title>
@@ -14,19 +14,11 @@
 		<p>Join now for free ride credit</p>
 	</header>
 	<section>
-		<div class="seccionTel">
-			<p>
-				<a id="seleccionarPais" href="paises.html">
-					<img>
-				</a>
-				<span id="codigoTel"></span>
-				<input id="nTelefono" type="number" name="">
-			</p>
-		</div>
-		<p>We'll send a text to verify your phone</p>
+		<label for="">Escribe aquí el código de validación:</label>
+		<div><span>LAB - </span></div><input type="text" maxlength="3" placeholder="XXX" id="input-codigo">
 	</section>
 	<section>
-		<div class="btn-next text-align"><a href="codigo-generado.html">Next</a></div>
+		<div class="btn-next"><a href="../sign-up-nombre/sign-up-nombre.html">Next</a></div>
 	</section>
 	<script type='text/javascript' src='../js/jquery-3.1.1.min.js'></script>
 	<script type='text/javascript' src='js/script.js'></script>

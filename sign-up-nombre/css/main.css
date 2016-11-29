@@ -16,6 +16,10 @@ h1, p {
 .form-group {
 	display: inline;
 }
+.input-box {
+	margin: 5px 5px;
+	border: 1px solid lightgrey;
+}
 .glyphicon {
 	width: 19px;
 	height: 19px;
