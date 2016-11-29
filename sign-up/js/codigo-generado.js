@@ -1,4 +1,4 @@
-$('#codigoGenerado').append('<span>LAB - </span><span id="tresDigitos">' + Math.floor(Math.random() * 899 + 100) + '</span>');
+$('#codigoGenerado').append('<h3>LAB - </h3><h3 id="tresDigitos">' + Math.floor(Math.random() * 899 + 100) + '</h3>');
 
 var tresDigitos = $('#tresDigitos');
 
